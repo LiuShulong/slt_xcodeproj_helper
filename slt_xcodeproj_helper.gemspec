@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{set xcode settings}
   spec.description   = %q{a commandline to set xcode project settings}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/LiuShulong/slt_xcodeproj_helper.git"
   spec.license       = "MIT"
 
 
