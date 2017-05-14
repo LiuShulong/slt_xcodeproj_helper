@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'slt_xcodeproj_helper'
+SLTProjectHelper.run(ARGV)

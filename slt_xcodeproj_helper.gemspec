@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["LiuShulong"]
   spec.email         = ["bigfish_liu@126.com"]
 
-  spec.summary       = %q{set xcode settings}
-  spec.description   = %q{a commandline to set xcode project settings}
+  spec.summary       = %q{sltset xcode settings}
+  spec.description   = %q{a commandline to sltset xcode project settings}
   spec.homepage      = "https://github.com/LiuShulong/slt_xcodeproj_helper.git"
   spec.license       = "MIT"
 
@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
     f.match(%r{^(test|spec|features)/})
   end
   spec.bindir        = "bin"
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
+  spec.executables   = "sltset"
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.14"

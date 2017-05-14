@@ -7,9 +7,9 @@ require 'xcodeproj'
 
 class SLTProjectHelper < CLAide::Command
 
-  self.description = 'set xcode project build options'
+  self.description = 'sltset xcode project build options'
 
-  self.command = 'set'
+  self.command = 'sltset'
 
   def self.options
     [
@@ -52,4 +52,3 @@ class SLTProjectHelper < CLAide::Command
 
 end
 
-# SLTProjectHelper.run(ARGV)
